@@ -1,0 +1,136 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #dfe7e2;
+}
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+header img {
+    height: 70px;
+    margin-right: 10px;
+}
+header h1 {
+    font-size: 22px;
+    color: #3a7763;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Noto Serif JP', serif;
+}
+nav {
+    background-color: #e6f0eb;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #d0dbd5;
+}
+nav a {
+    color: #3a7763;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+nav a:hover {
+    color: #2e5e4e;
+    transform: scale(1.1);
+}
+nav a:visited {
+    color: #3a7763;
+}
+
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+    transition: transform 0.5s;
+    color: #333; /* Dodane dla pewności */
+}
+.content:hover {
+    transform: scale(1.04);
+}
+
+.items {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+}
+
+.kafelki {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px; /* Opcjonalne ograniczenie szerokości */
+    margin: 0 auto; /* Wyśrodkowanie na stronie */
+  }
+  
+  .items {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+
+.items:hover {
+    transform: scale(1.04);
+    transition: transform 0.5s;
+}
+
+.hero {
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #fafafa;
+}
+
+footer {
+    background-color: #f4f8f6;
+    text-align: center;
+    color: #777;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-top: 1px solid #dfe7e2;
+}
+
+/* Globalne style dla linków */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+
+/* Style dla linków w sekcjach content */
+.content a {
+    color: #333; /* Czarny/kolor tekstu */
+}
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Specyficzny styl dla mailto - możesz zostawić zielony jeśli chcesz */
+.content a[href^="mailto:"] {
+    color: #3a7763;
+}
