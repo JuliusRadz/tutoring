@@ -6,26 +6,30 @@ body {
     color: #333;
 }
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     padding: 10px 20px;
-    display: flex;
-    align-items: center;
     border-bottom: 2px solid #dfe7e2;
 }
-header .logo-container {
+
+.logo-container {
     display: flex;
     align-items: center;
+    gap: 10px; /* Dodaje odstęp między logo a tekstem */
 }
+
 header img {
-    height: 70px;
-    margin-right: 10px;
+    height: 70px; /* Zachowaj obecny rozmiar */
 }
+
 header h1 {
-    font-size: 28px;
+    font-size: 29px;
     color: #3a7763;
-    margin: 0;
+    margin: 0; /* Usuwa domyślne marginesy h1 */
     font-weight: bold;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
 }
 nav {
     background-color: #e6f0eb;
