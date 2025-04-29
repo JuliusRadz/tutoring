@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     background: #ffffff;
@@ -21,11 +21,11 @@ header img {
     margin-right: 10px;
 }
 header h1 {
-    font-size: 22px;
+    font-size: 28px;
     color: #3a7763;
     margin: 0;
     font-weight: bold;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Inter', serif;
 }
 nav {
     background-color: #e6f0eb;
